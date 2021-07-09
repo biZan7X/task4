@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95vw;
+}
+
+:root{
+    --primary-color: #FAC509;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15%;
+    background-color: var(--primary-color);
+}
+
+h1{
+    font-size: 2vw;
+}
+
+h2{
+    font-size: 1.5vw;
+}
+
+a{
+    margin: 0.2rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.active{
+    color: white;
+}
+
+section{
+    width: 100vw;
+    height: 92vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    height: 100%;
+    width: 70%;
+    background-color: #EFEFEF;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.pro-pic{
+    height: 80%;
+    width: 25%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pro-pic img{
+    height: 75%;
+    width: 100%;
+}
+
+.pro-pic button{
+    height: 10%;
+    width: 100%;
+    color: whiite;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2rem;
+}
+
+.description{
+    height: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.intro{
+    height: 75%;
+    width: 100%;
+}
+
+.infobox{
+    width: 40%;
+    margin-top: 0.3rem;
+    display: flex;
+}
+
+.box{
+    width: 50%;
+}
+
+.btns{
+    height: 10%;
+    display: flex; 
+}
+
+.socialbox{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: lightblue solid 3px;
+    color: lightskyblue;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.blue{
+    border-color: blue;
+    color: blue;
+}
+
+.voilet{
+    border-color: violet;
+    color: violet;
+}
+
+.red{
+    border-color: red;
+    color: red;
+}
+
+.golden{
+    color: var(--primary-color);
+    font-size: 2vw;
+}
+
+.myskill{
+    border: black solid 1px;
+    padding:  0.5rem 1rem;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.skill-container{
+    width: 90%;
+    display: flex;
+    flex: 1;
+
+}
+
+.skillbox{
+    width: 50%;
+}
+
+.totpercentage{
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    margin: 0.5rem 0;
+}
+
+.gainedpercent{
+    height: 100%;
+    background-color: var(--primary-color);
+    text-align: end;
+    color: white;
+}
